@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+    <app>
+        <name>App 1</name>
+        <health>Running</health>
+    </app>
+    <app>
+        <name>App 2</name>
+        <health>Stopped</health>
+    </app>
+</catalog>
