@@ -3,6 +3,20 @@
                 xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
     <xsl:template match="/">
         <html>
+        <head>
+            <style>
+                div {
+                    margin: 10px;
+                }
+                label {
+                    font-weight: bold;
+                }
+                span {
+                    font-weight: normal;
+                    color: green;
+                }
+            </style>
+        </head>
         <body>
             <h2>Application Health Status</h2>
             <xsl:for-each select="catalog/app">
